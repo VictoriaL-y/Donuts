@@ -61,7 +61,7 @@ nav  a.nav-link {
     text-align: center;
     color: #63282C;
     font-family: 'Merienda One', cursive;
-    font-size: 7em;
+    font-size: 90px;
     transform-origin: 50% 70%;
     text-shadow: 0 -4px 0 #333,
         0 6px 8px rgba(30, 64, 47, 0.4),
@@ -177,7 +177,7 @@ input.btn:hover {
 /* Images with text */
 
 .aboutUs {
-    background-image: url(https://res.cloudinary.com/devqm7qmb/image/upload/q_40/v1660088758/pawel-czerwinski-z4n8CGRuzOA-unsplash_feew6q.jpg);
+    background-image: url(https://res.cloudinary.com/devqm7qmb/image/upload/v1660088758/pawel-czerwinski-z4n8CGRuzOA-unsplash_feew6q.jpg);
     padding: 6vw 0;
 }
 
@@ -258,7 +258,7 @@ footer {
 @media screen and (max-width: 2000px) {
 
     .text-with-animation h1{
-        font-size: 5em;
+        font-size: 70px;
         text-shadow: 0 -3px 0 #333,
         0 6px 8px rgba(30, 64, 47, 0.4),
         0 9px 10px rgba(64, 33, 30, .15),
@@ -309,7 +309,7 @@ footer {
     }
 
     .text-with-animation h1 {
-        font-size: 3.8em;
+        font-size: 60px;
         text-shadow: 0 -2px 0 #333,
         0 6px 8px rgba(30, 64, 47, 0.4),
         0 9px 10px rgba(64, 33, 30, .15),
@@ -364,7 +364,7 @@ footer {
     }
 
     .text-with-animation h1 {
-        font-size: 2.8em;
+        font-size: 40px;
     }
 
     /* email form */
@@ -417,7 +417,7 @@ footer {
     }
 
     .text-with-animation h1 {
-        font-size: 2em;
+        font-size: 30px;
     }
 
     /* email form */
@@ -482,7 +482,7 @@ footer {
     }
 
     .text-with-animation h1 {
-        font-size: 1.4em;
+        font-size: 18px;
         text-shadow: 0 -1.2px 0 #333,
         0 6px 8px rgba(30, 64, 47, 0.4),
         0 9px 10px rgba(64, 33, 30, .15),
