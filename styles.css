@@ -63,8 +63,8 @@ nav  a.nav-link {
     font-family: 'Merienda One', cursive;
     font-size: 7em;
     transform-origin: 50% 70%;
-    text-shadow: 0 -3px 0 #333,
-        0 6px 8px rgba(64, 33, 30, 0.4),
+    text-shadow: 0 -4px 0 #333,
+        0 6px 8px rgba(30, 64, 47, 0.4),
         0 9px 10px rgba(64, 33, 30, .15),
         0 30px 10px rgba(64, 33, 30, .18),
         0 15px 10px rgba(64, 33, 30, .21);
@@ -256,8 +256,14 @@ footer {
 }
 
 @media screen and (max-width: 2000px) {
-    .text-with-animation {
-        font-size: 10px;
+
+    .text-with-animation h1{
+        font-size: 5em;
+        text-shadow: 0 -3px 0 #333,
+        0 6px 8px rgba(30, 64, 47, 0.4),
+        0 9px 10px rgba(64, 33, 30, .15),
+        0 30px 10px rgba(64, 33, 30, .18),
+        0 15px 10px rgba(64, 33, 30, .21);   
     }
 
     /* email form */
@@ -298,15 +304,17 @@ footer {
     }
 
     .text-with-animation {
-
         top: 40vw;
         left: 9vw;
-        font-size: 12px;
-
     }
 
     .text-with-animation h1 {
         font-size: 3.8em;
+        text-shadow: 0 -2px 0 #333,
+        0 6px 8px rgba(30, 64, 47, 0.4),
+        0 9px 10px rgba(64, 33, 30, .15),
+        0 30px 10px rgba(64, 33, 30, .18),
+        0 15px 10px rgba(64, 33, 30, .21); 
     }
 
     /* email form */
@@ -475,6 +483,11 @@ footer {
 
     .text-with-animation h1 {
         font-size: 1.4em;
+        text-shadow: 0 -1.2px 0 #333,
+        0 6px 8px rgba(30, 64, 47, 0.4),
+        0 9px 10px rgba(64, 33, 30, .15),
+        0 30px 10px rgba(64, 33, 30, .18),
+        0 15px 10px rgba(64, 33, 30, .21);
     }
 
     /* email form */
