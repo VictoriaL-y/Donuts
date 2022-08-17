@@ -178,7 +178,7 @@ input.btn:hover {
 /* Images with text */
 
 .aboutUs {
-    background-image: url(https://res.cloudinary.com/devqm7qmb/image/upload/q_auto:eco/v1660088758/pawel-czerwinski-z4n8CGRuzOA-unsplash_feew6q.jpg);
+    background:linear-gradient(-45deg, #ED95BE, #F0D0DF, #EDBBD0, #F0D0DF, #EDBBD0, #F0D0DF, #ED95BE);
     padding: 6vw 0;
 }
 
