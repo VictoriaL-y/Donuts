@@ -37,11 +37,12 @@ nav a.nav-link {
     color: #63282C;
 }
 
-li span, nav a:hover.nav-link {
-    color:#8C0E03;
+li span,
+nav a:hover.nav-link {
+    color: #8C0E03;
 }
 
-nav  a.nav-link {
+nav a.nav-link {
     text-decoration: none;
 }
 
@@ -177,7 +178,7 @@ input.btn:hover {
 /* Images with text */
 
 .aboutUs {
-    background-image: url(https://res.cloudinary.com/devqm7qmb/image/upload/v1660088758/pawel-czerwinski-z4n8CGRuzOA-unsplash_feew6q.jpg);
+    background-image: url(https://res.cloudinary.com/devqm7qmb/image/upload/q_auto:eco/v1660088758/pawel-czerwinski-z4n8CGRuzOA-unsplash_feew6q.jpg);
     padding: 6vw 0;
 }
 
@@ -257,13 +258,13 @@ footer {
 
 @media screen and (max-width: 2000px) {
 
-    .text-with-animation h1{
+    .text-with-animation h1 {
         font-size: 70px;
         text-shadow: 0 -3px 0 #333,
-        0 6px 8px rgba(30, 64, 47, 0.4),
-        0 9px 10px rgba(64, 33, 30, .15),
-        0 30px 10px rgba(64, 33, 30, .18),
-        0 15px 10px rgba(64, 33, 30, .21);   
+            0 6px 8px rgba(30, 64, 47, 0.4),
+            0 9px 10px rgba(64, 33, 30, .15),
+            0 30px 10px rgba(64, 33, 30, .18),
+            0 15px 10px rgba(64, 33, 30, .21);
     }
 
     /* email form */
@@ -311,10 +312,10 @@ footer {
     .text-with-animation h1 {
         font-size: 60px;
         text-shadow: 0 -2px 0 #333,
-        0 6px 8px rgba(30, 64, 47, 0.4),
-        0 9px 10px rgba(64, 33, 30, .15),
-        0 30px 10px rgba(64, 33, 30, .18),
-        0 15px 10px rgba(64, 33, 30, .21); 
+            0 6px 8px rgba(30, 64, 47, 0.4),
+            0 9px 10px rgba(64, 33, 30, .15),
+            0 30px 10px rgba(64, 33, 30, .18),
+            0 15px 10px rgba(64, 33, 30, .21);
     }
 
     /* email form */
@@ -484,10 +485,10 @@ footer {
     .text-with-animation h1 {
         font-size: 18px;
         text-shadow: 0 -1.2px 0 #333,
-        0 6px 8px rgba(30, 64, 47, 0.4),
-        0 9px 10px rgba(64, 33, 30, .15),
-        0 30px 10px rgba(64, 33, 30, .18),
-        0 15px 10px rgba(64, 33, 30, .21);
+            0 6px 8px rgba(30, 64, 47, 0.4),
+            0 9px 10px rgba(64, 33, 30, .15),
+            0 30px 10px rgba(64, 33, 30, .18),
+            0 15px 10px rgba(64, 33, 30, .21);
     }
 
     /* email form */
