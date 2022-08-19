@@ -259,6 +259,10 @@ footer {
 
 @media screen and (max-width: 2000px) {
 
+    #navBar {
+        width: 600px;
+    }
+
     .text-with-animation {
         top: 40vw;
         left: 9vw;
@@ -305,10 +309,6 @@ footer {
 }
 
 @media screen and (max-width: 1400px) {
-
-    #navBar {
-        width: 600px;
-    }
 
     nav li {
         font-size: 14px;
@@ -496,7 +496,9 @@ footer {
             0 15px 10px rgba(64, 33, 30, .21);
     }
 
-    h1:nth-child(4), h1:nth-child(6), h1:nth-child(9) {
+    h1:nth-child(4),
+    h1:nth-child(6),
+    h1:nth-child(9) {
         padding-right: 20px;
     }
 
