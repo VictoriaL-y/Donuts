@@ -62,7 +62,7 @@ nav a.nav-link {
     text-align: center;
     color: #63282C;
     font-family: 'Merienda One', cursive;
-    font-size: 90px;
+    font-size: 80px;
     transform-origin: 50% 70%;
     text-shadow: 0 -4px 0 #333,
         0 6px 8px rgba(30, 64, 47, 0.4),
@@ -259,8 +259,13 @@ footer {
 
 @media screen and (max-width: 2000px) {
 
+    .text-with-animation {
+        top: 40vw;
+        left: 9vw;
+    }
+
     .text-with-animation h1 {
-        font-size: 70px;
+        font-size: 60px;
         text-shadow: 0 -3px 0 #333,
             0 6px 8px rgba(30, 64, 47, 0.4),
             0 9px 10px rgba(64, 33, 30, .15),
@@ -301,17 +306,16 @@ footer {
 
 @media screen and (max-width: 1400px) {
 
+    #navBar {
+        width: 600px;
+    }
+
     nav li {
         font-size: 14px;
     }
 
-    .text-with-animation {
-        top: 40vw;
-        left: 9vw;
-    }
-
     .text-with-animation h1 {
-        font-size: 60px;
+        font-size: 50px;
         text-shadow: 0 -2px 0 #333,
             0 6px 8px rgba(30, 64, 47, 0.4),
             0 9px 10px rgba(64, 33, 30, .15),
@@ -366,7 +370,7 @@ footer {
     }
 
     .text-with-animation h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     /* email form */
@@ -407,7 +411,7 @@ footer {
 
 @media screen and (max-width: 767px) {
     #navBar {
-        width: 90vw;
+        width: 79vw;
     }
 
     nav li {
@@ -419,7 +423,7 @@ footer {
     }
 
     .text-with-animation h1 {
-        font-size: 30px;
+        font-size: 24px;
     }
 
     /* email form */
@@ -490,6 +494,10 @@ footer {
             0 9px 10px rgba(64, 33, 30, .15),
             0 30px 10px rgba(64, 33, 30, .18),
             0 15px 10px rgba(64, 33, 30, .21);
+    }
+
+    h1:nth-child(4), h1:nth-child(6), h1:nth-child(9) {
+        padding-right: 20px;
     }
 
     /* email form */
