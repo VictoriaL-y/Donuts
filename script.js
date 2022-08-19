@@ -23,3 +23,8 @@
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
         }
+
+        // Here we adjust a current year
+
+        const year = document.querySelector('#current-year')
+        year.innerHTML = new Date().getFullYear()
