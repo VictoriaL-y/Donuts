@@ -49,7 +49,7 @@
                     </li>
 
                     <li><a class="nav-link" href="#aboutUs">Contact</a></li>
-                    <li><a class="nav-link" href="#pictures">About Us</a></li>
+                    <li><a class="nav-link" href="#prices">About Us</a></li>
                     <li><a class="nav-link" href="#map">Location</a></li>
                 </ul>
             </nav>
@@ -72,68 +72,88 @@
 
     </header>
 
+    <section class="email-form text-center">
+        <h2>Would you like to know about our news, promotions?</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input name="email" id="email" type="email" placeholder=" Enter your email address" required />
+            <input id="submit" type="submit" value=" Get Started " class="btn" />
+        </form>
+    </section>
 
-    <!--Container with an email-form and a container with images and texts-->
 
+    <!-- Pictures with text -->
     <div class="aboutUs container-fluid" id="aboutUs">
-
-        <section class="email-form text-center">
-            <h2>Would you like to know about our news, promotions?</h2>
-            <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input name="email" id="email" type="email" placeholder=" Enter your email address" required />
-                <input id="submit" type="submit" value=" Get Started " class="btn" />
-            </form>
-        </section>
-        <div class="pictures container-fluid" id="pictures">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img-container">
-                        <img data-src="https://res.cloudinary.com/devqm7qmb/image/upload/c_scale,q_90,w_2000/v1660085516/ashley-byrd-T38oDYX29ZQ-unsplash_kuwdao.jpg"
-                            alt="donuts on a blue and pink table with strawberries" class="img-fluid lazy">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <p>Premium quality and the best tastes. Also we have donats without glouten.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img data-src="https://res.cloudinary.com/devqm7qmb/image/upload/c_scale,q_90,w_2000/v1660085516/ashley-byrd-T38oDYX29ZQ-unsplash_kuwdao.jpg"
+                        alt="donuts on a blue and pink table with strawberries" class="img-fluid lazy">
                 </div>
             </div>
-
-            <div class="row">
-                <div class="col-md-6">
-                    <p>Fast delivery makes it even easier to get our product.</p>
-                </div>
-                <div class="col-md-6">
-                    <div class="img-container">
-                        <img data-src="https://res.cloudinary.com/devqm7qmb/image/upload/c_scale,q_90,w_2000/v1660085101/sharon-mccutcheon-s4RaGIo2eYI-unsplash_i0ebcq.jpg"
-                            alt="many colored donuts" class="img-fluid lazy">
-                    </div>
-                </div>
+            <div class="col-md-6">
+                <p>Premium quality and the best tastes. Also we have donats without glouten.</p>
             </div>
+        </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img-container">
-                        <img data-src="https://res.cloudinary.com/devqm7qmb/image/upload/c_scale,q_90,w_2000/v1660085570/heather-ford-Fq54FqucgCE-unsplash_vckalr.jpg"
-                            alt="four donuts on a blue and pink table" class="img-fluid lazy">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <p>Our team is friendly, dilligent and always ready to listen to your wishes.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Fast delivery makes it even easier to get our product.</p>
+            </div>
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img data-src="https://res.cloudinary.com/devqm7qmb/image/upload/c_scale,q_90,w_2000/v1660085101/sharon-mccutcheon-s4RaGIo2eYI-unsplash_i0ebcq.jpg"
+                        alt="many colored donuts" class="img-fluid lazy">
                 </div>
             </div>
         </div>
 
-        <!-- Map iframe -->
-        <div class="container map" id="map">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10195.504799938644!2d13.403966830800476!3d52.512508915893406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8511fac41b1fd%3A0x969b11809f4f2b42!2sMonkey%20Donuts!5e0!3m2!1sen!2sde!4v1659903943706!5m2!1sen!2sde"
-                style="border:0;" allowfullscreen="" id="video" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="img-container">
+                    <img data-src="https://res.cloudinary.com/devqm7qmb/image/upload/c_scale,q_90,w_2000/v1660085570/heather-ford-Fq54FqucgCE-unsplash_vckalr.jpg"
+                        alt="four donuts on a blue and pink table" class="img-fluid lazy">
+                </div>
+            </div>
+            <div class="col-md-6 last-p">
+                <p>Our team is friendly, dilligent and always ready to listen to your wishes.</p>
+            </div>
         </div>
+    </div>
+
+    <!-- Prices section -->
+
+    <section class="prices container-fluid" id="prices">
+
+        <div class="item">
+            <h3>Classic donut</h3>
+            <p class="donut-price">2$</p>
+            <p class="description">Classic donut without toppings</p>
+            <button class="btn"> Select </button>
+        </div>
+        <div class="item">
+            <h3>Chocolate donut</h3>
+            <p class="donut-price">2.50$</p>
+            <p class="description">Donut in milk chocolate glaze</p>
+            <button class="btn"> Select </button>
+        </div>
+        <div class="item">
+            <h3>Strawberry donut</h3>
+            <p class="donut-price">2.80$</p>
+            <p class="description">Dinut with strawberry jam inside</p>
+            <button class="btn"> Select </button>
+        </div>
+    </section>
+
+    <!-- Map iframe -->
+    <div class="container-fluid map" id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10195.504799938644!2d13.403966830800476!3d52.512508915893406!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a8511fac41b1fd%3A0x969b11809f4f2b42!2sMonkey%20Donuts!5e0!3m2!1sen!2sde!4v1659903943706!5m2!1sen!2sde"
+            style="border:0;" allowfullscreen="" id="video" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
 
     <!-- Footer with text only -->
     <footer>
-
         <p>Copyright © <span id="current-year"></span> Victoria Lipnitsky </p>
     </footer>
 
@@ -146,7 +166,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-       
+
     <!--Lazy loading-->
     <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.8.2/dist/lazyload.min.js"></script>
     <script type="text/javascript">

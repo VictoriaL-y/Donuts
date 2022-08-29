@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #F0E9F2;
+    background-image: url(https://res.cloudinary.com/devqm7qmb/image/upload/q_80/v1660088758/pawel-czerwinski-z4n8CGRuzOA-unsplash_feew6q.jpg);
     font-family: 'Righteous', cursive;
     font-size: 1em;
 }
@@ -140,8 +140,7 @@ h1:nth-child(11) {
 
 .email-form {
     color: #63282C;
-    margin-top: 3vw;
-    margin-bottom: 6vw;
+    margin: calc(30px + 2vw) auto;
 }
 
 form {
@@ -157,18 +156,24 @@ input#email {
     height: 35px;
     width: 400px;
     margin: 0 auto;
+    border-color: #63282C;
 }
 
 input.btn {
+    margin-top: 1vw;
+}
+
+input.btn,
+.prices .btn {
     color: white;
     background-color: #8C0E03;
     border: 1px solid #63282C;
     width: fit-content;
-    margin-top: 1vw;
     text-align: center;
 }
 
-input.btn:hover {
+input.btn:hover,
+.prices .btn:hover {
     color: white;
     background-color: #63282C;
     border: 1px solid #8C0E03;
@@ -177,19 +182,15 @@ input.btn:hover {
 
 /* Images with text */
 
-.aboutUs {
-    /* background:linear-gradient(-45deg, #ED95BE, #F0D0DF, #EDBBD0, #F0D0DF, #EDBBD0, #F0D0DF, #ED95BE); */
-    background-image: url(https://res.cloudinary.com/devqm7qmb/image/upload/q_80/v1660088758/pawel-czerwinski-z4n8CGRuzOA-unsplash_feew6q.jpg);
-    padding: 6vw 0;
+.aboutUs,
+.prices .item {
+    background-color: #F0E9F2;
+    border-radius: 15px;
 }
 
-.aboutUs .pictures {
-    background-color: #F1E4F3;
+.aboutUs {
     width: 80%;
-    margin: 0 auto;
-    border-radius: 50px;
     padding: 5vw;
-
 }
 
 .aboutUs .col-md-6 {
@@ -201,7 +202,7 @@ input.btn:hover {
 
 }
 
-.aboutUs .pictures img {
+.aboutUs img {
     max-width: 100%;
     max-height: 100%;
     box-shadow: 10px 5px 15px #63282C;
@@ -212,9 +213,44 @@ h2 {
     font-size: 28px;
 }
 
-.aboutUs .pictures p {
+.aboutUs p,
+.prices p.donut-price {
     color: #63282C;
     font-size: 24px;
+}
+
+/* Prices */
+.prices {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: calc(30px + 2vw) auto;
+}
+
+.prices .item {
+    display: inline-block;
+    text-align: center;
+}
+
+.prices .item {
+    padding: 20px 10px;
+    width: calc(110px + 9vw);
+}
+
+.prices h3 {
+    background-color: #e7cfdd;
+    border-radius: 5px;
+    font-size: calc(0.6rem + 0.6vw);
+    color: #63282C;
+}
+
+.prices p.donut-price {
+    margin-bottom: 0;
+}
+
+.prices p.description {
+    color: #63282C;
+    font-size: calc(0.4rem + 0.5vw);
 }
 
 /* iframe */
@@ -222,10 +258,10 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: #F0E9F2;
-    margin-top: 6vw;
-    border-radius: 25px;
-    width: 1200px;
-    height: 500px;
+    margin-bottom: calc(30px + 2vw);
+    border-radius: 15px;
+    width: 80%;
+    height: calc(150px + 22vw);
     padding: 0;
 }
 
@@ -289,22 +325,14 @@ footer {
         width: 400px;
     }
 
-    input.btn {
+    input.btn,
+    .prices .btn {
         font-size: 16px;
     }
 
-    .aboutUs .pictures p {
+    .aboutUs p,
+    .prices p.donut-price {
         font-size: 18px;
-    }
-
-    /* iframe */
-    .map {
-        width: 900px;
-        height: 450px;
-    }
-
-    iframe {
-        padding: 10px;
     }
 }
 
@@ -335,22 +363,14 @@ footer {
         width: 400px;
     }
 
-    input.btn {
+    input.btn,
+    .prices .btn {
         font-size: 16px;
     }
 
-    .aboutUs .pictures p {
+    .aboutUs p,
+    .prices p.donut-price {
         font-size: 17px;
-    }
-
-    /* iframe */
-    .map {
-        width: 750px;
-        height: 350px;
-    }
-
-    iframe {
-        padding: 10px;
     }
 }
 
@@ -385,26 +405,18 @@ footer {
         width: 300px;
     }
 
-    input.btn {
+    input,
+    .prices .btn {
         font-size: 15px;
     }
 
-    .aboutUs .pictures {
+    .aboutUs {
         width: 90%;
     }
 
-    .aboutUs .pictures p {
+    .aboutUs p,
+    .prices p.donut-price {
         font-size: 16px;
-    }
-
-    /* iframe */
-    .map {
-        width: 600px;
-        height: 300px;
-    }
-
-    footer {
-        font-size: 13px;
     }
 }
 
@@ -438,35 +450,58 @@ footer {
         width: 200px;
     }
 
-    input.btn {
+    input.btn,
+    .prices .btn {
         font-size: 13px;
     }
 
-    .aboutUs .pictures {
+    .aboutUs {
         width: 100%;
         border-radius: 0;
         padding: 10vw;
     }
 
-    .aboutUs .pictures img {
+    .aboutUs img {
         box-shadow: none;
+        max-width: 450px;
     }
 
-    .aboutUs .pictures .row:nth-of-type(2) {
+    .aboutUs .row:nth-of-type(2) {
         display: flex;
         flex-direction: column-reverse;
     }
 
-    .aboutUs .pictures p {
+    .aboutUs p {
         margin: 5vw;
-        font-size: 16px;
         text-align: center;
     }
 
+    .aboutUs p,
+    .prices p.donut-price {
+        font-size: 16px;
+    }
+
+    .aboutUs .last-p {
+        margin-bottom: 0;
+    }
+
+    .prices {
+        width: 100%;
+    }
+
+    .prices .item {
+        padding: 10px 10px;
+    }
+
     /* iframe */
+    iframe {
+        padding: 5px;
+    }
+
     .map {
-        width: 500px;
-        height: 280px;
+        margin-bottom: 0;
+        width: 100%;
+        border-radius: 0;
     }
 }
 
@@ -514,18 +549,31 @@ footer {
         width: 150px;
     }
 
-    input.btn {
+    input.btn,
+    .prices .btn {
         font-size: 9px;
     }
 
-    .aboutUs .pictures p {
+    .aboutUs p {
         margin: 5vw;
+    }
+
+    .aboutUs p,
+    .prices p.donut-price {
         font-size: 12px;
     }
 
-    /* iframe */
-    .map {
-        width: 100vw;
+    .aboutUs img {
+        max-width: 330px;
+    }
+
+    .prices {
+        background-color: #F0E9F2;
+    }
+
+    .prices div:first-child,
+    .prices div:nth-of-type(2) {
+        border-right: 1px solid #8C0E03;
         border-radius: 0;
     }
 
